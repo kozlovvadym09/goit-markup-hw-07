@@ -1,0 +1,101 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --titel-text-color: #212121;
+  --titel-accent-bg-color: #ffffff;
+  --primary-text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #f5f4fa;
+  --hero-footer-bg-color: #2f303a;
+  --dark-accent-color: #000000;
+  --bright-accent-color: #2196f3;
+  --bg-accent-color: #188ce8;
+  --border-color: #EEEEEE;
+  --border-line-color: #ECECEC;
+  --social-icons-color: #afb1b8;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.background-color {
+  color: var(--primary-bg-color);
+}
+
+.header {
+  background-color: var(--titel-accent-bg-color);
+}
+
+.logo-accent {
+  color: var(--bright-accent-color);
+}
+
+.footer {
+  background-color: var(--hero-footer-bg-color);
+}
+
+.contact-map,
+.contact-mail,
+.contact-tel {
+  font-style: normal;
+}
+
+.contact-bright-bg-mail,
+.contact-bright-bg-tel {
+  color: var(--primary-text-color);
+}
+
+.contact-mail,
+.contact-tel {
+  color: var(--secondary-text-color);
+}
+
+.option-button {
+  color: var(--titel-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
