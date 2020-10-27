@@ -38,11 +38,16 @@ html {
  .footer {
    background-color: var(--hero-footer-bg-color);
  }
- 
- .contact-map,
- .contact-mail,
- .contact-tel {
-   font-style: normal;
+ .contact {
+   &-map {
+    font-style: normal;
+   }
+   &-mail {
+    font-style: normal;
+   }
+   &-tel {
+    font-style: normal;
+   }
  }
  .contact-bright-bg-mail,
  .contact-bright-bg-tel {
