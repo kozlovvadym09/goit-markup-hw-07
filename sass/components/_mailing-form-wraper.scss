@@ -34,17 +34,17 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--titel-accent-bg-color);
+    color: $titel-accent-bg-color;
     border-radius: 4px;
-    background-color:var(--bright-accent-color);
-    border: 1px solid var(--bg-accent-color);
+    background-color: $bright-accent-color;
+    border: 1px solid $bg-accent-color;
     outline: none;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      background-color: var(--bg-accent-color); 
+      background-color: $bg-accent-color; 
     }
     
   }
@@ -57,5 +57,5 @@
   position: absolute;
   top: 13px;
   right: 28px;
-  fill: var(--titel-accent-bg-color);
+  fill: $titel-accent-bg-color;
 }

@@ -347,7 +347,7 @@ img {
 }
 
 
-/*----(scss:components-6/(Team)/sicial-list)----*/
+/*----(scss:components-6/(Team)/social-list)----*/
 .social-list {
   display: flex;
   justify-content: center;
@@ -503,7 +503,7 @@ margin-right: 12px;
   letter-spacing: 0.06em;
   color: var(--titel-accent-bg-color);
   border-radius: 4px;
-  background-color:var(--bright-accent-color);
+  background-color: var(--bright-accent-color);
   border: 1px solid var(--bg-accent-color);
   outline: none;
   transition-property: background-color;
@@ -526,7 +526,7 @@ margin-right: 12px;
 /*--(scss:layout-1/header)--*/
 .header {
   padding: 0;
-  border: 1px solid var(--border-line-color);
+  border: 1px solid var(--titel-accent-bg-color);
 }
 .header .container {
   display: flex;
@@ -863,7 +863,7 @@ margin-right: 12px;
 
 /* ======== PORTFOLIO-Filter-Buttons ======== */
 /*--(portfolio.scss)--*/
-/*--(scss:components/option-button)--*/
+/*--(scss:components-1/option-button)--*/
 .option-button {
   display: inline-block;
   padding: 6px 22px;
@@ -910,6 +910,7 @@ margin-right: 12px;
 /* ======== END PORTFOLIO-Filter-Buttons ======== */
 
 /* ======== PORTFOLIO-PROJECTS-GALLERY-list ======== */
+/*--(scss:components-2/(Portfolio)/projects-gallery)--*/
 .projects-list {
   font-size: 0;
 }

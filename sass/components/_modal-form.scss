@@ -7,7 +7,7 @@
     font-size: 12px;
     line-height: 1,167;
     letter-spacing: 0.01em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     margin-bottom: 10px;
   }
 
@@ -23,7 +23,7 @@
   &-input:focus,
   &-massage:focus {
     outline: none;
-    border: 1px solid var(--bright-accent-color);
+    border: 1px solid $bright-accent-color;
   }
   &-massage {
     height: 120px;
@@ -43,17 +43,17 @@
   &-button {
     width: 200px;
     height: 50px;
-    color: var(--titel-accent-bg-color);
-    background-color: var(--bright-accent-color);
+    color: $titel-accent-bg-color;
+    background-color: $bright-accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: 1px solid var(--bg-accent-color);
+    border: 1px solid $bg-accent-color;
     border-radius: 4px;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      background-color: var(--bg-accent-color);
+      background-color: $bg-accent-color;
     }
   }
   &-policy-label {
@@ -64,7 +64,7 @@
     font-size: 14px;
     line-height: 1,713;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     margin-bottom: 30px;
     &::before {
      content:"";
@@ -72,12 +72,12 @@
      width: 16px;
      height: 15px;
      border-radius: 2px;
-     border: 2px solid var(--titel-text-color);
+     border: 2px solid $titel-text-color;
      margin-right: 7px;
    }
    .modal-form-policy:checked + &::before {
-     background-color: var(--bright-accent-color);
-     border-color: var(--bright-accent-color);
+     background-color: $bright-accent-color;
+     border-color: $bright-accent-color;
      background-image: url(../images/check-mark-icon.svg);
    }
   }
@@ -90,7 +90,7 @@
    line-height: 1,151;
    text-align: center;
    letter-spacing: 0.03em;
-   color: var(--titel-text-color);
+   color: $titel-text-color;
  }
 
  .form-field-wraper {
@@ -105,7 +105,7 @@
    left: 15px;
    transform: translateY(-50%);
    .modal-form-input:focus + & {
-    fill: var(--bright-accent-color);
+    fill: $bright-accent-color;
   }
  }
 
@@ -115,12 +115,12 @@
    font-size: 12px;
    line-height: 1,167;
    letter-spacing: 0.01em;
-   color: var(--primary-text-color);
+   color: $primary-text-color;
  }
 
  .modal-link-accent-color {
    display: inline-block;
-   color: var(--bright-accent-color);
+   color: $bright-accent-color;
  }
  
  .submit-button-wraper {

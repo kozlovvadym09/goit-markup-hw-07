@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--social-icons-color);
+    border: 1px solid $social-icons-color;
     border-radius: 4px;
     width: 170px;
     height: 90px;
@@ -20,17 +20,17 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      border-color: var(--bright-accent-color);
+      border-color: $bright-accent-color;
     }
   }
     &-logo-svg {
     display: flex;
-    fill: var(--social-icons-color);
+    fill: $social-icons-color;
     transition-property: fill; 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     .clients-link:hover & {
-      fill: var(--bright-accent-color);
+      fill: $bright-accent-color;
     }
   }
 }
@@ -41,5 +41,5 @@
    line-height: 1.167;
    text-align: center;
    letter-spacing: 0.03em;
-   color: var(--titel-text-color);
+   color: $titel-text-color;
  }

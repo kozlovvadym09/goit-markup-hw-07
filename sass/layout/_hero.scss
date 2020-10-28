@@ -3,20 +3,20 @@
    height: 600px;
    margin-left: auto;
    margin-right: auto;
-   background-color: var(--hero-footer-bg-color);
+   background-color: $hero-footer-bg-color;
    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/section1/hero-bg-img.jpg), url(../images/section1/grey-bg-img.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    background-origin: border-box;
-   &.hero-headline {
+   & .hero-headline {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--titel-accent-bg-color);
+    color: $titel-accent-bg-color;
     margin-bottom: 30px;
   }
  }

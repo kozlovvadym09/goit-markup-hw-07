@@ -19,7 +19,7 @@
       height: 120px;
       background-repeat: no-repeat;
       background-position: center;
-      background-color: var(--secondary-bg-color);
+      background-color: $secondary-bg-color;
       margin-bottom: 30px;
     }
   }
@@ -29,14 +29,14 @@
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--titel-text-color);
+    color: $titel-text-color;
   }
   &-list-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     height: 75px;
     margin-top: 10px;
   }

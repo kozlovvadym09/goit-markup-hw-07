@@ -5,7 +5,7 @@
    transform: translate(-50%, -50%) scale(1);
    width: 528px;
    height: 581px;
-   background: var(--titel-accent-bg-color);
+   background: $titel-accent-bg-color;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 4px;
    transition: all 500ms linear 250ms;
@@ -18,7 +18,7 @@
    right: 8px;
    width: 30px;
    height: 30px;
-   background-color: var(--titel-accent-bg-color);
+   background-color: $titel-accent-bg-color;
    border: 1px solid rgba(0, 0, 0, 0.1);
    border-radius:50%;
    cursor: pointer;
@@ -27,7 +27,7 @@
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
    &:focus {
-    fill: var(--bright-accent-color);
+    fill: $bright-accent-color;
   }
  }
 

@@ -8,7 +8,7 @@
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
@@ -17,26 +17,26 @@
   &-bright-bg-mail:focus,
   &-bright-bg-tel:hover,
   &-bright-bg-tel:focus {
-    color: var(--bright-accent-color);
+    color: $bright-accent-color;
   }
   &-bright-bg-mail:hover .icon-envelope-svg,
   &-bright-bg-mail:focus .icon-envelope-svg,
   &-bright-bg-tel:hover .icon-smartphone-svg,
   &-bright-bg-tel:focus .icon-smartphone-svg {
-    fill: var(--bright-accent-color);
+    fill: $bright-accent-color;
   }
 
   &-map,
   &-mail,
   &-tel {
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.713;
     letter-spacing: 0.03em;
   }
   &-map {
-    color: var(--titel-accent-bg-color);
+    color: $titel-accent-bg-color;
   }
   &-map,
   &-mail {
@@ -52,14 +52,14 @@
   &-mail:focus,
   &-tel:hover,
   &-tel:focus {
-    color: var(--bright-accent-color);
+    color: $bright-accent-color;
   }
 }
 .icon {
   &-envelope-svg,
   &-smartphone-svg {
     margin-right: 10px;
-    fill: var(--primary-text-color);
+    fill: $primary-text-color;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

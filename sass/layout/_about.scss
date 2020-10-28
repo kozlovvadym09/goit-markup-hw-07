@@ -7,7 +7,7 @@
     font-size: 36px;
     line-height: 1.167;
     text-align: center;
-    color: var(--titel-text-color);
+    color: $titel-text-color;
   }
    &-desc-list {
     display: flex;
@@ -32,7 +32,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--titel-accent-bg-color);
+    color: $titel-accent-bg-color;
     background: rgba(47, 48, 58, 0.8);
   }
 }

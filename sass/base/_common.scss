@@ -11,7 +11,7 @@ html {
  }
  
  body {
-   font-family: var(--main-font);
+   font-family: $main-font;
  }
  
  img {
@@ -26,17 +26,17 @@ html {
  }
  
  .background-color {
-   color: var(--primary-bg-color);
+   color: $primary-bg-color;
  }
  .header {
-   background-color: var(--titel-accent-bg-color);
+   background-color: $titel-accent-bg-color;
  }
  .logo-accent {
-   color: var(--bright-accent-color);
+   color: $bright-accent-color;
  }
  
  .footer {
-   background-color: var(--hero-footer-bg-color);
+   background-color: $hero-footer-bg-color;
  }
  .contact {
    &-map {
@@ -51,15 +51,15 @@ html {
  }
  .contact-bright-bg-mail,
  .contact-bright-bg-tel {
-   color: var(--primary-text-color);
+   color: $primary-text-color;
  }
  .contact-mail,
  .contact-tel {
-   color: var(--secondary-text-color);
+   color: $secondary-text-color;
  }
  .option-button {
-   color: var(--titel-text-color);
-   background-color: var(--secondary-bg-color); 
+   color: $titel-text-color;
+   background-color: $secondary-bg-color; 
  }
  
  
