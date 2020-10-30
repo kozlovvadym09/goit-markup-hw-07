@@ -1,3 +1,4 @@
+/*--For-Header --*/
 .contact {
   &-bright-bg-mail,
   &-bright-bg-tel {
@@ -13,6 +14,11 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
   }
+  &-bright-bg-mail,
+  &-bright-bg-tel {
+    color: $primary-text-color;
+  }
+
   &-bright-bg-mail:hover,
   &-bright-bg-mail:focus,
   &-bright-bg-tel:hover,
@@ -25,11 +31,17 @@
   &-bright-bg-tel:focus .icon-smartphone-svg {
     fill: $bright-accent-color;
   }
+/*--For-Footer --*/
+  &-mail,
+  &-tel {
+    color: $secondary-text-color;
+  }
 
   &-map,
   &-mail,
   &-tel {
     font-family: $main-font;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.713;

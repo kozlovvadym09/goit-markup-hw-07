@@ -1,9 +1,10 @@
 .header {
    padding: 0;
    border: 1px solid $border-line-color;
+   background-color: $titel-accent-bg-color;
  }
  
- .logo-header {
+.logo-header {
    font-family: $secondary-font;
    font-weight: 700;
    font-size: 26px;
@@ -11,6 +12,9 @@
    letter-spacing: 0.03em;
    color: $dark-accent-color;
    margin-right: 94px;
+}
+ .logo-accent {
+  color: $bright-accent-color;
 }
 .navigation {
    display: flex;

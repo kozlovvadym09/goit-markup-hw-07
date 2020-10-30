@@ -28,38 +28,18 @@ html {
  .background-color {
    color: $primary-bg-color;
  }
- .header {
-   background-color: $titel-accent-bg-color;
+ .container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  .header & {
+   display: flex;
  }
- .logo-accent {
-   color: $bright-accent-color;
+  .hero & {
+   text-align: center;
+   padding: 200px 0;
  }
+}
  
- .footer {
-   background-color: $hero-footer-bg-color;
- }
- .contact {
-   &-map {
-    font-style: normal;
-   }
-   &-mail {
-    font-style: normal;
-   }
-   &-tel {
-    font-style: normal;
-   }
- }
- .contact-bright-bg-mail,
- .contact-bright-bg-tel {
-   color: $primary-text-color;
- }
- .contact-mail,
- .contact-tel {
-   color: $secondary-text-color;
- }
- .option-button {
-   color: $titel-text-color;
-   background-color: $secondary-bg-color; 
- }
  
  

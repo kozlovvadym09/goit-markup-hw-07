@@ -3,6 +3,8 @@
 :root {
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
+  --main-font-style: normal;
+  --secondary-font-style:
   --titel-text-color: #212121;
   --titel-accent-bg-color: #ffffff;
   --primary-text-color: #757575;
@@ -17,7 +19,9 @@
   --border-line-color: #ECECEC;
   --social-icons-color: #afb1b8; 
 }
-/*--(sass:utils-2/visually-hidden)--*/
+
+/*--(BASE)--*/
+/*--(sass:base-1/common)--*/
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -28,8 +32,7 @@
   width: 1px !important;
   overflow: hidden;
 }
-/*--(BASE)--*/
-/*--(sass:base-1/common)--*/
+
 html {
   box-sizing: border-box;
 }
@@ -67,7 +70,7 @@ img {
 .contact-map,
 .contact-mail,
 .contact-tel {
-  font-style: normal;
+  font-style: var(--main-font-style);
 }
 .contact-bright-bg-mail,
 .contact-bright-bg-tel {

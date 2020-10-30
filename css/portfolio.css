@@ -1,16 +1,4 @@
 /*utils*/
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
 /*base*/
 html {
   box-sizing: border-box;
@@ -44,45 +32,6 @@ img {
   color: #e5e5e5;
 }
 
-.header {
-  background-color: #ffffff;
-}
-
-.logo-accent {
-  color: #2196f3;
-}
-
-.footer {
-  background-color: #2f303a;
-}
-
-.contact-map {
-  font-style: normal;
-}
-
-.contact-mail {
-  font-style: normal;
-}
-
-.contact-tel {
-  font-style: normal;
-}
-
-.contact-bright-bg-mail,
-.contact-bright-bg-tel {
-  color: #757575;
-}
-
-.contact-mail,
-.contact-tel {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.option-button {
-  color: #212121;
-  background-color: #f5f4fa;
-}
-
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -96,6 +45,18 @@ img {
 .hero .container {
   text-align: center;
   padding: 200px 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 /*components*/
@@ -113,6 +74,11 @@ img {
   margin-left: 30px;
 }
 
+/*--For-Header --*/
+.contact {
+  /*--For-Footer --*/
+}
+
 .contact-bright-bg-mail, .contact-bright-bg-tel {
   display: flex;
   align-items: center;
@@ -127,6 +93,10 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contact-bright-bg-mail, .contact-bright-bg-tel {
+  color: #757575;
+}
+
 .contact-bright-bg-mail:hover, .contact-bright-bg-mail:focus, .contact-bright-bg-tel:hover, .contact-bright-bg-tel:focus {
   color: #2196f3;
 }
@@ -138,8 +108,13 @@ img {
   fill: #2196f3;
 }
 
+.contact-mail, .contact-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .contact-map, .contact-mail, .contact-tel {
   font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.713;
@@ -185,6 +160,8 @@ img {
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: #212121;
+  background-color: #f5f4fa;
 }
 
 .option-button:hover, .option-button:focus {
@@ -465,6 +442,7 @@ img {
 .header {
   padding: 0;
   border: 1px solid #ECECEC;
+  background-color: #ffffff;
 }
 
 .logo-header {
@@ -475,6 +453,10 @@ img {
   letter-spacing: 0.03em;
   color: #000000;
   margin-right: 94px;
+}
+
+.logo-accent {
+  color: #2196f3;
 }
 
 .navigation {
@@ -536,6 +518,7 @@ img {
 
 .footer {
   padding: 60px 0;
+  background-color: #2f303a;
 }
 
 .logo-address-footer {
