@@ -1,4 +1,3 @@
-/*--For-Header --*/
 .contact {
   &-bright-bg-mail,
   &-bright-bg-tel {
@@ -31,7 +30,6 @@
   &-bright-bg-tel:focus .icon-smartphone-svg {
     fill: $bright-accent-color;
   }
-/*--For-Footer --*/
   &-mail,
   &-tel {
     color: $secondary-text-color;
